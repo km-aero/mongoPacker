@@ -1,5 +1,5 @@
 # Mongo Packer
-This repository contains files which are used to create an AMI (Amazon Machine Image) in AWS. With some tweaks, the files can also be used to create machine images in other cloud providers which will not be shown here.
+This repository includes files which are used to create an AMI (Amazon Machine Image) in AWS containing mongodb. With some tweaks, the files can also be used to create machine images in other cloud providers which will not be shown here.
 
 ## Pre-requisites
 I have run the cookbook using the below prerequisites:
