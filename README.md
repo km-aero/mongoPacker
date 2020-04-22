@@ -10,7 +10,6 @@ I have run the cookbook using the below prerequisites:
   - Test Kitchen v2.3.4
   - Foodcritic v16.2.0
   - Cookstyle v5.20.0
-- VirtualBox v6.1.4
 - AWS account
 
 ## Packer
@@ -23,7 +22,7 @@ Clone and navigate into the mongoPacker directory and follow the below steps.
 $ berks vendor
 ```
 - configure packer.json to use your AWS details and keys (lines 10, 12, 13, 15, & 20). Also make sure your AWS credentials are saved in your environment variables
-- verify the packer.json file with the command below
+- verify the packer.json file.
 ```bash
 $ packer validate packer.json
 ```
